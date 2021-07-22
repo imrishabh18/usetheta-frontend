@@ -15,7 +15,6 @@ const Info = ({details, setDetails, section, setSection}) => {
             setIsEmailValid(false)
             setDisabled(true)
         }
-        console.log(isEmailValid)
     }
 
     useEffect(() => {

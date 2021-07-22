@@ -39,21 +39,22 @@ function App() {
     fourth: false
   })
 
-  const sendData = (e) => {
+  const sendData = async (e) => {
     e.preventDefault()
     
-    const url = 'http://localhost:5000/'
-    // axios.get(url).then(res => console.log(res.data))
-    axios.post(url, details,{
+    const url = 'http://usetheta.herokuapp.com/'
+
+    axios.post(url, details, {
       headers: {
-        Accept: "text/plain",
-        "Content-Type": "application/json;",
+        'Access-Control-Allow-Origin': "*",
+        "Content-type": "application/json"
       },
     }).then(res => {
       console.log(res.status)
 
       localStorage.removeItem("userInfo")
       localStorage.removeItem("sectionInfo")
+
     })
     .catch(err => console.error(err))
 
@@ -77,8 +78,8 @@ function App() {
   },[details, section])
 
   return (
-    <div className="App flex flex-col justify-center items-center h-screen">
-      <form className="flex flex-col w-1/5" onSubmit={sendData} >   
+    <div className="App flex flex-col justify-center items-center h-screen w-screen">
+      <form className="flex flex-col w-3/5 sm:w-1/5" onSubmit={sendData} >   
         { section.first ? <Info details={details} setDetails={setDetails} section={section} setSection={setSection} /> : null }
         { section.second ? <ProfilePicture details={details} setDetails={setDetails} section={section} setSection={setSection} /> : null }
         { section.third ? <Meme details={details} setDetails={setDetails} section={section} setSection={setSection} /> : null }
