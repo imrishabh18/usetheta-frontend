@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/usetheta-frontend/static/css/main.4d3f3bca.chunk.css",
+    "main.js": "/usetheta-frontend/static/js/main.74bac437.chunk.js",
+    "main.js.map": "/usetheta-frontend/static/js/main.74bac437.chunk.js.map",
+    "runtime-main.js": "/usetheta-frontend/static/js/runtime-main.0466ab5d.js",
+    "runtime-main.js.map": "/usetheta-frontend/static/js/runtime-main.0466ab5d.js.map",
+    "static/js/2.ea322c00.chunk.js": "/usetheta-frontend/static/js/2.ea322c00.chunk.js",
+    "static/js/2.ea322c00.chunk.js.map": "/usetheta-frontend/static/js/2.ea322c00.chunk.js.map",
+    "static/js/3.6b16c807.chunk.js": "/usetheta-frontend/static/js/3.6b16c807.chunk.js",
+    "static/js/3.6b16c807.chunk.js.map": "/usetheta-frontend/static/js/3.6b16c807.chunk.js.map",
+    "index.html": "/usetheta-frontend/index.html",
+    "static/css/main.4d3f3bca.chunk.css.map": "/usetheta-frontend/static/css/main.4d3f3bca.chunk.css.map",
+    "static/js/2.ea322c00.chunk.js.LICENSE.txt": "/usetheta-frontend/static/js/2.ea322c00.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0466ab5d.js",
+    "static/js/2.ea322c00.chunk.js",
+    "static/css/main.4d3f3bca.chunk.css",
+    "static/js/main.74bac437.chunk.js"
+  ]
+}
