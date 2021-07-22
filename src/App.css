@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  background-color: rgb(9, 10 ,11);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
 }
 
 .App-logo {
