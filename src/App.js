@@ -42,7 +42,7 @@ function App() {
   const sendData = async (e) => {
     e.preventDefault()
     
-    const url = 'http://usetheta.herokuapp.com/'
+    const url = 'https://cors-anywhere.herokuapp.com/https://usetheta.herokuapp.com/'
 
     axios.post(url, details, {
       headers: {
